@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Get Started With GC2 GPU Instances"
+date:   2025-03-09
+categories: onboarding
+---
+## Launch GC2 Instance
+
+### Here are steps to launch your first gc2 instance:
+
+step 1: Visit [https://cloud.dataoorts.com/](https://cloud.dataoorts.com/) Register your account and verify your email.
+
+step 2: Add sufficient credit amount to start your GC2 instance.
+
+step 3: Select the instance type you want to spin up. The first object is the GPU model, the second object is the total GPU memory, and the third object is the total number of GPUs in the instance. For example, 'H100-80-1' means one Nvidia H100 GPU. For more specifications about GPU models, visit [https://dataoorts.com/pricing/](https://dataoorts.com/pricing/).
+
+step 4: Select your DMI (learn more about DMI: [https://dataoorts.com/dmi/](https://dataoorts.com/dmi/) and Launch Instance.
+
+step 5: To access your instance, we provide a Jupyter-based web SSH session. fyi, You can add your preferred method for accessing the instance.
+
+Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.
