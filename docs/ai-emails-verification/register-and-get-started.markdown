@@ -4,7 +4,20 @@ title: "Register and Get Started"
 permalink: /docs/register-get-started/
 nav_order: 3
 parent: "AI Powered Email Verification"
+published: May 21, 2024
+updated: May 21, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ### **Introducing AI Email Verification—Managed by Dataoorts, the trusted name behind high-performance GPU cloud computing. Experience cutting-edge email validation, built for speed, accuracy, and scalability.**
 

@@ -6,6 +6,12 @@ nav_order: 5
 has_children: true
 ---
 
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>7 Articles</span>
+</div>
+
 
 ### [Verify Emails Instantly and Extract Key Data—Powered by AI](/docs/verify-emails-instantly-and-extract-key-data-powered-by-ai)
 Quick Note: AI Mail Verification is a part of the Dataoorts AI-CRM Project. All data is securely managed and administered by Dataoorts. Email Verification, the Serverless Way ✔ Zero commitments – No subscriptions, no lock-ins ✔ True...

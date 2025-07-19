@@ -4,7 +4,20 @@ title: "AI Models Catalog"
 permalink: /docs/ai-models-catalog
 parent:  "Serverless Cloud API - Dataoorts AI"
 nav_order: 2
+published: Nov 13, 2024
+updated: Jun 23, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## Inference Models Catalog
 Currently, Dataoorts offers support for powerful text generation and text-to-image generation models, enabling you to create content and visuals with ease. Looking ahead, we’re excited to expand our platform with an even broader array of AI models to meet diverse needs and unlock more possibilities. Stay tuned for upcoming additions that will further enhance your AI toolkit!

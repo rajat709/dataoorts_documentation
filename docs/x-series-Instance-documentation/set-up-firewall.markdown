@@ -4,7 +4,20 @@ title: "Configure Firewalls and Security Groups"
 permalink: /docs/set-up-firewall/
 parent: "X-Series Instance Documentation"
 nav_order: 4
+published: Mar 9, 2025
+updated: Mar 9, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## Securing Cloud GPU VM: Allowing Specific IPs and Ports with UFW & iptables
 This guide will walk you through securing your Cloud Virtual Machine (VM) by configuring its firewall to accept incoming traffic only from a defined set of IP addresses and on specific ports. This drastically improves your VM's security by blocking unauthorized access attempts. We will be using UFW (Uncomplicated Firewall), a user-friendly front-end for iptables, to manage these firewall rules.

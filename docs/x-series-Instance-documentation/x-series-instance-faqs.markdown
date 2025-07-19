@@ -4,7 +4,20 @@ title: "FAQs: X-Series Instance"
 permalink: /docs/x-series-instance-faqs/
 parent: "X-Series Instance Documentation"
 nav_order: 2
+published: Mar 9, 2025
+updated: Mar 9, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## X-Series Instance — F.A.Qs
 

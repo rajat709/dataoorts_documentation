@@ -4,7 +4,20 @@ title: Get Started With X-Series GPU Instances
 permalink: /docs/get-started-x-series-gpu-instances/
 parent: "X-Series Instance Documentation"
 nav_order: 1
+published: Mar 9, 2025
+updated: Mar 9, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## Launch X-Series Instance
 Here are steps to launch your first x-series instance:

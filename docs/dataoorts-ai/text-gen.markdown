@@ -7,6 +7,13 @@ nav_order: 3
 has_childrens: true
 ---
 
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>11 Articles</span>
+</div>
+
+
 ## deepseek-ai/deepseek-r1-distill-qwen-32b 
 The DeepSeek-R1-Distill-Qwen-32B model, distilled from DeepSeek-R1 using Qwen2.5, surpasses o1-mini in multiple benchmarks and sets new state-of-the-art performance standards for dense models. Get Your API Credential From: https://cloud.data...
 

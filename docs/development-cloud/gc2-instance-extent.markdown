@@ -4,7 +4,20 @@ title: GC2 Instance Extent
 permalink: /docs/gc2-instance-extent/
 parent: "GC2 Instance Documentation"
 nav_order: 5
+published: May 29, 2025
+updated: May 29, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## GC2 Instance Restrictions
 We have implemented these limitations on our instances to ensure you can work confidently while we also enjoy our coffee time peacefully. Our security validation and limitation protocols have been thoroughly researched and cover nearly all use cases, allowing you to work without hassle. These measures primarily come into play when detecting malicious or illegal activities, such as crypto mining or intentional attempts to compromise our systems. Rest assured, your normal work won’t be affected by these safeguards.

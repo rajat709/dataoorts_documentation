@@ -6,6 +6,12 @@ nav_order: 1
 has_children: true
 ---
 
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>12 Articles</span>
+</div>
+
 ### [Get Started With GC2 GPU Instances](/docs/gc2/)
 Launch GC2 Instance Here are steps to launch your first gc2 instance: step 1: Visit https://cloud.dataoorts.com/ Register your account and verify your email. step 2: Add sufficient credit amount to start your GC2 instance. step 3: Select the...
 

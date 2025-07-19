@@ -7,6 +7,12 @@ nav_order: 4
 has_childrens: true
 ---
 
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>4 Articles</span>
+</div>
+
 ## black-forest-labs/flux-1-schnell 
 FLUX.1 [schnell] is a rectified flow transformer with 12 billion parameters, designed to generate images from text descriptions. Get Your API Credential From: https://cloud.dataoorts.com/ai import requests import json import base64 ## ...
 

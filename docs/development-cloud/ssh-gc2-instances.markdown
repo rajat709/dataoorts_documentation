@@ -4,7 +4,20 @@ title: SSH GC2 Instances
 permalink: /docs/ssh-gc2-instances/
 parent: "GC2 Instance Documentation"
 nav_order: 3
+published: Jun 17,2024
+updated: Mar 9, 2025
 ---
+
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>Updated on {{page.updated}}</span>
+    <span style="margin-left:2em;">Published on {{page.published}}</span>
+</div>
+
+<hr style="border:none;height:3px;background-color:#e0e0e0;margin:0;">
+<hr style="border:none;height:3px;background-color:#bebebe;margin-top:0.2em;margin-bottom:1.5em;">
+
 
 ## Access GC2 Instance — SSH
 You can access our GC2 instance either directly through a browser or from your local machine.<br><br>

@@ -6,6 +6,12 @@ nav_order: 2
 has_children: true
 ---
 
+# {{page.title}}
+
+<div style="font-size:0.78em;color: #797878; margin-bottom:1.5em;">
+     <span>4 Articles</span>
+</div>
+
 ### [Get Started With X-Series GPU Instances](/docs/get-started-x-series-gpu-instances/)
 Launch X-Series Instance Here are steps to launch your first x-series instance: step 1: Visit Here | Register your account and verify your email and make sure x-series instance starts with “x_“ or “x-“. step 2: Add sufficient credit amount to...
 <br>
