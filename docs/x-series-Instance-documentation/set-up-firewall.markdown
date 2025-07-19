@@ -67,7 +67,9 @@ sudo ufw allow from 192.0.2.10 to any port 3306 proto tcp comment "Allow MySQL f
 ```bash
 sudo ufw allow from 203.0.113.5 to any port 53 proto udp comment "Allow UDP DNS from home IP (example)"
 ```
-> Repeat Step 3 for every IP address and port combination that needs to be allowed access to your VM.
+
+{: .important }
+> **Repeat Step 3** for every IP address and port combination that needs to be allowed access to your VM.
 
 ### Step 4: Enable UFW
 **Crucial Precaution**: Before enabling UFW, ensure you have created a rule to allow SSH access from your current IP address. If you are accessing your VM via SSH and you enable UFW without allowing your current IP on port 22 (or your custom SSH port), you will likely lose your SSH connection and be locked out.
@@ -82,6 +84,7 @@ sudo ufw enable
 ```
 You will be prompted to confirm enabling the firewall. Type y and press Enter.
 
+{: .new }
 > Once UFW is enabled, it will start enforcing the rules you have defined, including the default deny incoming policy.
 
 **If you temporarily allowed SSH from anywhere, now you should replace that rule with a more specific rule to allow SSH only from your known IP(s) and delete the broad "allow ssh" rule.**
@@ -158,6 +161,7 @@ sudo ufw status numbered              # Step 5 (Verify)
 ### Advanced Topic: Using 'ipset' for Very Large IP Sets (Optional)
 If you need to manage firewall rules for a very large number of IP addresses (thousands or more), using ipset directly with iptables can be more efficient than adding individual UFW/iptables rules. ipset allows you to create named sets of IPs and then match against these sets in your iptables rules.
 
+{: .important }
 > Note: Using ipset directly requires a deeper understanding of iptables and is generally only necessary for very specific, high-scale scenarios. For most users, UFW is sufficient.
 
 If you choose to explore ipset, you would follow steps similar to these (this is a brief overview and not a complete tutorial):

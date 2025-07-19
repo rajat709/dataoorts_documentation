@@ -6,19 +6,24 @@ nav_order: 5
 parent: "AI Powered Email Verification"
 ---
 
+{: .important }
 > Current Limits for Bulk Email Verification:
-* The maximum limit for a single batch of email verification is 50,000 emails or fewer.
-* If you need to verify more than 50,000 emails, you can process them in multiple batches, with each batch containing no more than 50,000 emails.
-* You may submit up to three batches per day under this default limit.
-<br><br>
-    → Need a Higher Limit?
-    This limit can be increased on a case-by-case basis. If you require a higher quota, please contact our team at help@dataoorts.com to request an increase.
-<br><br>
-    → Single Email Verification:
-    There are no limits for single email verification—verify as many emails as you need, asynchronously!
+> * The maximum limit for a single batch of email verification is 50,000 emails or fewer.
+> * If you need to verify more than 50,000 emails, you can process them in multiple batches, with each batch containing no more than 50,000 emails.
+> * You may submit up to three batches per day under this default limit.
+> <br><br>
+>    → Need a Higher Limit?
+>    This limit can be increased on a case-by-case basis. If you require a higher quota, please contact our team at help@dataoorts.com to request an increase.
+><br><br>
+>    → Single Email Verification:
+>    There are no limits for single email verification—verify as many emails as you need, asynchronously!
+>
 
-> For interactive web-based bulk email verification, the currently accepted file types are TXT, XLSX, and CSV. If you need access to additional file types, please request it Here. Ensure that your file contains only a single column or single row of email addresses.
+{: .highlight }
+> For interactive web-based bulk email verification, the currently accepted file types are TXT, XLSX, and CSV. If you need access to additional file types,
+> please request it Here. Ensure that your file contains only a single column or single row of email addresses.
 
+{: .important }
 > The cost of email verification is $0.0001 per email. Ensure your account has sufficient balance for bulk email verification.
 
 ## To verify bulk emails, Visit [Here](https://mails.dataoorts.com/batch) and follow these steps:
@@ -33,5 +38,7 @@ parent: "AI Powered Email Verification"
 
 ![Bulk Email Verification WebUI - Hosted in Hugging Face](bulk_email_verification_2.png)
 
+{: .important }
 >Developers: Bulk Email Verification API
-<br> If you're searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API documentation [Here](https://dataoorts.document360.io/v1/docs/api-email-verification).
+> <br> If you're searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API 
+> documentation [Here](https://dataoorts.document360.io/v1/docs/api-email-verification).

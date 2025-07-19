@@ -8,6 +8,12 @@ nav_order: 4
 
 ## Run GC2 Instance Locally
 
+{: .important-title }
+> Note 📝
+> 
+> To run a GC2 instance locally, you need to set up the OpenSSH server manually on your GC2 instance. Here is the guide: [SSH-GC2](https://dataoorts.document360.io/docs/ssh-gc2-instances)
+>
+
 You can use local port forwarding for many applications to turn your local machine into an interface powered by a remote GC2 instance. This setup allows you to enjoy the comfort of your local environment while leveraging the acceleration of GPU compute. You can use several major services locally with the hardware acceleration of GC2, including:
 
 * Google Colab

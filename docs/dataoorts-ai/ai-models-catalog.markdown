@@ -37,5 +37,9 @@ Text to Image Generation Models
 * lykon/dreamshaper-8-lcm
 * black-forest-labs/flux-1-schnell
 ```
+
+{: .important-title }
 > Request Model
-For any model requests, feel free to contact us at [help@dataoorts.com](help@dataoorts.com).
+>
+> For any model requests, feel free to contact us at [help@dataoorts.com](help@dataoorts.com).
+>

@@ -8,7 +8,10 @@ nav_order: 3
 ## Replacing SSH Keys on Your X-Series VMs
 This doc will guide you through the process of replacing your existing SSH keys on your Linux VM with a new key pair. This is a common security practice, especially if your default private key is auto-generated or if you simply want to refresh your keys.
 
-> If you choose not to rotate your private key and decide to stick with the default `temporary.pem` key, we strongly recommend configuring firewall restrictions and limiting access to a specific set of IP addresses. To configure the firewall, refer to its documentation available [Here](https://dataoorts.document360.io/v1/docs/set-up-firewall-and-security-groups).
+{: .highlight }
+> If you choose not to rotate your private key and decide to stick with the default `temporary.pem` key, we strongly recommend configuring firewall
+> restrictions and limiting access to a specific set of IP addresses. To configure the firewall, refer to its documentation available [Here](https://dataoorts.document360.io/v1/docs/set-up-firewall-and-security-groups).
+>
 
 ### Assumptions:
 * You have SSH access to your Linux VM using your current SSH key.
@@ -95,6 +98,7 @@ nano ~/.ssh/authorized_keys
 # When nano editor open delete all keys present
 ```
 
+{: .important }
 > Delete all existing keys in /authorized_keys and paste your new public key content that you copied earlier (id_rsa.pub).
 
 Save and Exit, Press `CTRL+O` to save, then `Enter`, and `CTRL+X` to exit nano.
@@ -125,4 +129,5 @@ rm authorized_keys.bak
 
 * ***Regular Key Rotation***: Consider rotating your SSH keys periodically as a security best practice.
 
-<span style="color:rgb(128,0,128)">Congratulations! You have successfully replaced the SSH keys on your Cloud X-Series GPU VM, enhancing its security and ensuring you have control over who can access your server via SSH. Always test your SSH access immediately after making changes to your keys.</span>
+{: .note }
+> Congratulations! You have successfully replaced the SSH keys on your Cloud X-Series GPU VM, enhancing its security and ensuring you have control over who can access your server via SSH. Always test your SSH access immediately after making changes to your keys.

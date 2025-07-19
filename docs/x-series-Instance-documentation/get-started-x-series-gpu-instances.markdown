@@ -19,6 +19,7 @@ step 4: Select your DMI (learn more about DMI: [Here](https://dataoorts.com/dmi)
 
 step 5: To access your instance, Default **temporary.pem** SSH key is automatically generated for instance access. However, since this key is provided by default, you should update your instance's SSH credentials with your own key. Instructions for changing the key is [Here](https://dataoorts.document360.io/v1/docs/ssh-fortify).
 
+{: .highlight }
 > Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.
 
 <details>
@@ -28,6 +29,10 @@ Super-DDRA Cluster for Hosting X-Series Instance Nodes
 All X-Series instances are hosted in a secure cloud environment within Tier 3 and Tier 4 data centers. The DDRA Cluster for X-Series consists of a globally distributed hybrid GPU infrastructure, integrating our own GPU racks in data centers alongside major cloud and GPU providers.
 </details>
 <br>
-#### Report Issue/Bug
-If you encounter any bugs or issues on our cloud platform, we sincerely appreciate your efforts and time in notifying us. Please feel free to reach out to us at [help@dataoorts.com](help@dataoorts.com).
 
+{: .warning-title }
+> Report Issue/Bug
+>
+> If you encounter any bugs or issues on our cloud platform, we sincerely appreciate your efforts and time in notifying us. Please feel free to reach out to us
+> at [help@dataoorts.com](help@dataoorts.com).
+>

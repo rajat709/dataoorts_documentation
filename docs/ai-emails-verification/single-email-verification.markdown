@@ -6,8 +6,11 @@ nav_order: 4
 parent: "AI Powered Email Verification"
 ---
 
->Complete Asynchronous Architecture:
-Experience blazing-fast API responses! Powered by async architecture, our system effortlessly manages thousands of concurrent requests. So that your apps stay quick, scalable, and frustration-free.
+{: .important }
+>Complete Asynchronous Architecture:<br>
+> Experience blazing-fast API responses! Powered by async architecture, our system effortlessly manages thousands of concurrent requests. So that your apps
+> stay quick, scalable, and frustration-free.
+> 
 
 ## 1. Try a free trial before making any payment
 
@@ -67,6 +70,7 @@ Start with our free trial - verify up to 3 emails at no cost.
 
 ![Dataoorts AI-Powered Email Verification - Limitless (Hosted in Dataoorts Cloud)](single_image_verification_2.png)
 
+{: .important }
 > Are you a Developer?<br>
-If you're searching for an API, we also offer access to all our services with api, including AI-powered email verification. Get the API documentation Here
+> If you're searching for an API, we also offer access to all our services with api, including AI-powered email verification. Get the API documentation Here
 

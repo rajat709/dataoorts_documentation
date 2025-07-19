@@ -20,6 +20,7 @@ step 4: Select your DMI (learn more about DMI: [https://dataoorts.com/dmi/](http
 
 step 5: To access your instance, we provide a Jupyter-based web SSH session. fyi, You can add your preferred method for accessing the instance.
 
+{: .highlight }
 > Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.
 
 <details>
@@ -28,5 +29,8 @@ All GC2 instances are hosted within Dataoorts' globally distributed DDRA Cluster
 </details>
 
 <br>
-#### Report Issue/Bug
-If you encounter any bugs or issues on our cloud platform, we sincerely appreciate your efforts and time in notifying us. Please feel free to reach out to us at [help@dataoorts.com](help@dataoorts.com)
+
+{: .warning}
+> Report Issue/Bug
+>
+>If you encounter any bugs or issues on our cloud platform, we sincerely appreciate your efforts and time in notifying us. Please feel free to reach out to us at [help@dataoorts.com](help@dataoorts.com)

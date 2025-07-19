@@ -6,21 +6,30 @@ nav_order: 6
 parent: "AI Powered Email Verification"
 ---
 
-> Asynchronous Architecture <br>
-Our API features an async architecture, allowing you to handle multiple requests seamlessly and execute parallel operations efficiently.
+{: .important-title }
+> Asynchronous Architecture
+>
+> Our API features an async architecture, allowing you to handle multiple requests seamlessly and execute parallel operations efficiently.
+>
 
+{: .highlight }
 > Multiple failed and unauthorized attempts will result in a permanent IP block.
 
 ## 👉 Get your Unify API KEY [Here](https://cloud.dataoorts.com/unify_api)
 
 ![Dataoorts Unify API - AI Mails Verification](api_for_email_verification.jpg)
 
+{: .important }
 > Our REST API enables AI-powered email verification and is compatible with any framework. For demonstration purposes, we have used Python as an example.
+
 
 ## 1. For Single Email Verification
 
+{: .important-title }
 > API Endpoint URL:
-<br>https://cloud.dataoorts.com/ai_mails_api/v1
+>
+> https://cloud.dataoorts.com/ai_mails_api/v1
+>
 
 ```python
 # Health Check
@@ -136,9 +145,11 @@ print(json.dumps(response.json(), indent=2))
 
 ### ➡️ Only Email Data Prediction
 
+{: important-title }
 > API Endpoint URL:
-<br>https://cloud.dataoorts.com/ai_mails_api/data/v1
-
+>
+> [https://cloud.dataoorts.com/ai_mails_api/data/v1](https://cloud.dataoorts.com/ai_mails_api/data/v1)
+>
 
 ```python
 import requests
@@ -156,9 +167,12 @@ Response JSON: {'user_info': {'accuracy': 0.81, 'name': 'Rajat Vishwakarma', 'us
 ```
 
 ## 2. For Bulk Email Verification
-> API Endpoint URL:
-<br>https://cloud.dataoorts.com/ai_mails_api/bulk/v1
 
+{: .important-title }
+> API Endpoint URL:
+> 
+> https://cloud.dataoorts.com/ai_mails_api/bulk/v1
+>
 
 ```python
 # Health Check - Endpoint
@@ -178,14 +192,17 @@ print(json.dumps(resp.json(), indent=2))
 ```
 
 ### ➡️ Submit and Queue the Batch Request
+
+{: .important }
 > Current Limits for Bulk Email Verification:
-* The maximum limit for a single batch of email verification is 50,000 emails or fewer.
-* If you need to verify more than 50,000 emails, you can process them in multiple batches, with each batch containing no more than 50,000 emails.
-* You may submit up to three batches per day under this default limit.
-<br><br>→ Need a Higher Limit?
-        This limit can be increased on a case-by-case basis. If you require a higher quota, please contact our team at help@dataoorts.com to request an increase.
-<br><br>→ Single Email Verification:
-    There are no limits for single email verification—verify as many emails as you need, asynchronously!
+> * The maximum limit for a single batch of email verification is 50,000 emails or fewer.
+> * If you need to verify more than 50,000 emails, you can process them in multiple batches, with each batch containing no more than 50,000 emails.
+> * You may submit up to three batches per day under this default limit.
+> <br><br>→ Need a Higher Limit?
+>         This limit can be increased on a case-by-case basis. If you require a higher quota, please contact our team at help@dataoorts.com to request an  > increase.
+> <br><br>→ Single Email Verification:
+>    There are no limits for single email verification—verify as many emails as you need, asynchronously!
+>
 
 ```python
 import json, requests
@@ -222,9 +239,13 @@ print(json.dumps(response.json(), indent=2))
 ```
 ### ➡️ Retrieve the Batch Response Using its Unique ID
 
+{: .important-title }
 > API Endpoint URL:
-<br> https://cloud.dataoorts.com/ai_mails_api/bulk_results/v1
+>
+> <br> https://cloud.dataoorts.com/ai_mails_api/bulk_results/v1
+>
 
+{: .highlight }
 > Multiple failed and unauthorized attempts to retrieve the batch response will result in a permanent IP block.
 
 ```python
@@ -312,5 +333,6 @@ print(json.dumps(response.json(), indent=2))
 ]
 ```
 
+{: .important }
 > Feedback on our API<br>
-If you encounter any issues with the API, have feature requests, or want to share your thoughts, feel free to contact us at [help@dataoorts.com](help@dataoorts.com).
+> If you encounter any issues with the API, have feature requests, or want to share your thoughts, feel free to contact us at [help@dataoorts.com](help@dataoorts.com).

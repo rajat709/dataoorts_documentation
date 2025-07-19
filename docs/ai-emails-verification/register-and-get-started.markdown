@@ -42,5 +42,6 @@ parent: "AI Powered Email Verification"
 
 ![Dataoorts Dashboard - Add Credits](register_get_started_2.png)
 
-> You are all set!
-Coming Next: Discover Web Interface and API Integration Ways to Verify Emails!
+{: .important }
+> You are all set! <br>
+> Coming Next: Discover Web Interface and API Integration Ways to Verify Emails!

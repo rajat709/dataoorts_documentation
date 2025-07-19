@@ -32,6 +32,7 @@ We have implemented these limitations on our instances to ensure you can work co
 
 11. Beta Testing Conditions: As we are currently in the beta phase, instances may be automatically terminated for updates or other reasons, albeit in rare cases.
 
+{: .highlight }
 > Users are expected to comply with these terms to ensure the smooth operation and security of the platform. Failure to adhere to these terms may result in the suspension or termination of user accounts and services. We reserve the right to take appropriate actions to enforce compliance and maintain the integrity and security of our platform.
 
 

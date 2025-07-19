@@ -34,7 +34,8 @@ ngrok http http://localhost:8080
 
 This command provides a publicly accessible URL that forwards traffic from your local machine’s port 8080. You can also view your tunnel details on Ngrok’s Agents dashboard [https://dashboard.ngrok.com/tunnels/agents](https://dashboard.ngrok.com/tunnels/agents)
 
-Extra: Ngrok offers several third-party plugins that enhance tunnel analysis, improve security, and provide valuable insights for better usability.
+
+<span style="color:rgb(255, 215, 128);">Extra: Ngrok offers several third-party plugins that enhance tunnel analysis, improve security, and provide valuable insights for better usability.</span>
 
 #### Cloudflared Tunnel
 Cloudflared Tunnel:[ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/]( https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
@@ -70,6 +71,5 @@ Cloudflared Tunnel:[ https://developers.cloudflare.com/cloudflare-one/connection
 
 You can also forward GC2 ports to your localhost, but to do so, you need to configure the OpenSSH server in your GC2 instance. Below are some useful guides for setting this up:
 
-[SSH GC2 Instance](/docs/ssh-gc2-instances)
-
-[Connect GC2 Locally](/docs/connect-gc2-locally)
+* [SSH GC2 Instance](/docs/ssh-gc2-instances)
+* [Connect GC2 Locally](/docs/connect-gc2-locally)

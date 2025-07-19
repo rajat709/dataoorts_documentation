@@ -6,8 +6,11 @@ nav_order: 1
 parent: "AI Powered Email Verification"
 ---
 
+{: .important-title }
 > Quick Note:
-<br>AI Mail Verification is a part of the Dataoorts AI-CRM Project. All data is securely managed and administered by Dataoorts.
+>
+> AI Mail Verification is a part of the Dataoorts AI-CRM Project. All data is securely managed and administered by Dataoorts.
+>
 
 Email Verification, the Serverless Way<br>
 ✔ Zero commitments – No subscriptions, no lock-ins<br>

@@ -35,7 +35,7 @@ github_username:
 theme: just-the-docs
 plugins:
   - jekyll-feed
-
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,3 +56,18 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    color: blue
+  new:
+    color: green
+  note:
+    color: purple
+  warning:
+    color: red

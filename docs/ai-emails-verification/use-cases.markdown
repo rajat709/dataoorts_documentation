@@ -35,6 +35,8 @@ The user sign-up process is a critical touchpoint. AI can play a vital role in m
 * **Personalized Onboarding**: AI can analyze new customer data and user behavior to personalize the onboarding experience, making it more relevant and engaging. This can involve guiding new users with dynamic, step-by-step instructions or triggering personalized emails with relevant information.
 
 ## 4. Intelligent Data Extraction: Unlocking Valuable Insights from Emails
+
+{: .highlight }
 > Caution: The predictions made by our AI model are not always accurate.
 
 Emails are a treasure trove of data, but manually extracting this information is time-consuming and prone to errors. AI-powered data extraction automates this process, transforming unstructured email content into valuable, structured data.
