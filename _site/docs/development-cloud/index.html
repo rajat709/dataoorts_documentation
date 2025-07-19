@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Dataoorts Documentation | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>GC2 Instance Documentation | Dataoorts Documentation</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Dataoorts Documentation" />
+<meta property="og:title" content="GC2 Instance Documentation" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/docs/development-cloud/" />
+<meta property="og:url" content="http://localhost:4000/docs/development-cloud/" />
 <meta property="og:site_name" content="Dataoorts Documentation" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Dataoorts Documentation" />
+<meta property="twitter:title" content="GC2 Instance Documentation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Dataoorts Documentation","name":"Dataoorts Documentation","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"GC2 Instance Documentation","url":"http://localhost:4000/docs/development-cloud/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dataoorts Documentation" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,53 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/07/18/kind-cluster.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">GC2 Instance Documentation</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="get-started-with-gc2-gpu-instances"><a href="/docs/gc2/">Get Started With GC2 GPU Instances</a></h3>
+<p>Launch GC2 Instance Here are steps to launch your first gc2 instance: step 1: Visit https://cloud.dataoorts.com/ Register your account and verify your email. step 2: Add sufficient credit amount to start your GC2 instance. step 3: Select the…</p>
+
+<h3 id="gc2-instance-features-"><a href="/docs/gc2-instance-features/">GC2 Instance Features </a></h3>
+<p>Features of GC2 Instances GC2 Instances are purpose built for development purposes. They are lightweight yet powerful, offering fast and secure performance. These instances utilize DDRA technology and are updated weekly to enhance features and…</p>
+
+<h3 id="ssh-gc2-instances"><a href="/docs/ssh-gc2-instances/">SSH GC2 Instances</a></h3>
+<p>Access GC2 Instance — SSH You can access our GC2 instance either directly through a browser or from your local machine. Ways to Access the GC2 Instance: Web Based Jupyter Terminal (Depreciated) SSH Web Based Terminal - Jupyter…</p>
+
+<h3 id="connect-gc2-locally"><a href="/docs/connect-gc2-locally/">Connect GC2 Locally</a></h3>
+<p>Run GC2 Instance Locally Note 📝 To run a GC2 instance locally, you need to set up the OpenSSH server manually on your GC2 instance. Here is the guide: SSH-GC2 You can use local port forwarding for many applications to turn your loc…</p>
+
+<h3 id="gc2-instance-extent"><a href="/docs/gc2-instance-extent/">GC2 Instance Extent</a></h3>
+<p>GC2 Instance Restrictions We have implemented these limitations on our instances to ensure you can work confidently while we also enjoy our coffee time peacefully. Our security validation and limitation protocols have been thoroughly researched an…</p>
+
+<h3 id="faqs-gc2-instance"><a href="/docs/faq-gc2-instance/">FAQs: GC2 Instance</a></h3>
+<p>GC2 Instance — F.A.Qs What is DDRA ? Learn about DDRA Here . Where My GC2 Instance Hosted ? All GC2 instances are hosted within Dataoorts’ globally distributed DDRA Cluster. As community-based instances, GC2 leverages dece…</p>
+
+<h3 id="access-applications--tunnel"><a href="/docs/access-applications/">Access Applications – Tunnel</a></h3>
+<p>Access Applications Running In GC2 Via Tunneling To access your application running in GC2 on any particular port using a local tunnel to make it publicly accessible, you can use any tunneling service. However, ensure that it is a trusted service…</p>
+
+<h3 id="gc2-docker"><a href="/docs/gc2-docker/">GC2: Docker</a></h3>
+<p>Using Docker In GC2 Instance We have now added Docker as one of the primary setups for the GC2 instance for all DMI. Hence, you have the latest version of Docker running. If you want to install a specific version of Docker, please follow the instru…</p>
+
+<h3 id="gc2-kubernetes"><a href="/docs/gc2-kubernetes/">GC2: Kubernetes</a></h3>
+<p>Get Started With K8s In GC2 Instance Setting up a Kubernetes cluster on a GC2 instance has been tested with KinD, Minikube, and Rancher K3s. Before setting up your Kubernetes environment, ensure you select Docker as the driver and configure it to u…</p>
+
+<h3 id="kind-cluster"><a href="/docs/kind-cluster/">KinD Cluster</a></h3>
+<p>KinD In GC2 [Linux] To Install KinD, You Need To Follow The Instructions Given Here: https://kind.sigs.k8s.io/docs/user/quick-start/ Install Kubectl [Linux] Follow These Instruction: https://kubernetes.io/docs/tasks/tools/install-kubectl-l…</p>
+
+<h3 id="minikube-cluster"><a href="/docs/minikube/">Minikube Cluster</a></h3>
+<p>Minikube In GC2 [Linux] # Download and Install Minikube # Set-Up Minikube Using the docker driver curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 sudo install minikube-linux-amd64 /usr/local/bin/minikube &amp;…</p>
+
+<h3 id="gc2-support"><a href="/docs/gc2-support/">GC2: Support</a></h3>
+<p>Get Support Related Software/Tools/Applications So far, GC2 supports all tools, software, and applications, but there are no limitations. Of course, we don’t check everything in particular. If you face any issues while running or installing anyth…</p>
+
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

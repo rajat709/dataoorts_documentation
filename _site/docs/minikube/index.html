@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Dataoorts Documentation | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Minikube Cluster | Dataoorts Documentation</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Dataoorts Documentation" />
+<meta property="og:title" content="Minikube Cluster" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/docs/minikube/" />
+<meta property="og:url" content="http://localhost:4000/docs/minikube/" />
 <meta property="og:site_name" content="Dataoorts Documentation" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Dataoorts Documentation" />
+<meta property="twitter:title" content="Minikube Cluster" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Dataoorts Documentation","name":"Dataoorts Documentation","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Minikube Cluster","url":"http://localhost:4000/docs/minikube/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dataoorts Documentation" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,47 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/07/18/kind-cluster.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Minikube Cluster</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="minikube-in-gc2">Minikube In GC2</h3>
+<p>[Linux]</p>
+<pre><code class="language-BASH"># Download and Install Minikube
+# Set-Up Minikube Using the docker driver
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube &amp;&amp; rm minikube-linux-amd64
+</code></pre>
+<p><strong>Install Kubectl</strong>
+[Linux]</p>
+
+<p>Follow these Instruction: <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/">https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/</a></p>
+
+<h4 id="start-minikube-cluster-with-gpu-access">Start Minikube Cluster With GPU Access</h4>
+<pre><code class="language-BASH"># Verify that everything is set up before moving further
+sudo apt-get update
+curl -O https://raw.githubusercontent.com/rajat709/Cloud-API-Builder/main/meta/minikube-verify.sh &amp;&amp; chmod +x minikube-verify.sh &amp;&amp; ./minikube-verify.sh; status=$? &amp;&amp; rm -f minikube-verify.sh
+</code></pre>
+<pre><code class="language-BASH"># Check if bpf_jit_harden is set to 0
+sudo sysctl net.core.bpf_jit_harden
+
+# If it’s not 0 run:
+echo "net.core.bpf_jit_harden=0" | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+</code></pre>
+<pre><code class="language-BASH"># Start minikube with gpus access
+minikube start --driver docker --container-runtime docker --gpus all
+</code></pre>
+
+<p>Now you’re all set! Enjoy your Kubernetes pods with GPU acceleration. 🔥</p>
+
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

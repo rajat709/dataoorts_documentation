@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Dataoorts Documentation | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>SSH GC2 Instances | Dataoorts Documentation</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Dataoorts Documentation" />
+<meta property="og:title" content="SSH GC2 Instances" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/docs/ssh-gc2-instances/" />
+<meta property="og:url" content="http://localhost:4000/docs/ssh-gc2-instances/" />
 <meta property="og:site_name" content="Dataoorts Documentation" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Dataoorts Documentation" />
+<meta property="twitter:title" content="SSH GC2 Instances" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Dataoorts Documentation","name":"Dataoorts Documentation","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"SSH GC2 Instances","url":"http://localhost:4000/docs/ssh-gc2-instances/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dataoorts Documentation" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,92 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/07/18/kind-cluster.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">SSH GC2 Instances</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="access-gc2-instance--ssh">Access GC2 Instance — SSH</h3>
+<p>You can access our GC2 instance either directly through a browser or from your local machine.
+Ways to Access the GC2 Instance:
+Web Based Jupyter Terminal (Depreciated)</p>
+
+<p>SSH</p>
+
+<h4 id="web-based-terminal---jupyter-depreciated">Web Based Terminal - Jupyter (Depreciated)</h4>
+<p>We provide direct access to a web terminal (Jupyter-based). You don’t need to set up anything. Just choose your instance type and DMI, and launch the instance. You will find a button for ‘‘Web-SSH’’ for web-based terminal access.</p>
+
+<h4 id="ssh">SSH</h4>
+<p>To use SSH, you need to manually set up an SSH server on the GC2 instance. You can choose either password-based or key-based authentication. Below is a quick tutorial on how to set up an SSH connection.</p>
+
+<pre><code class="language-BASH">BASH
+# Update everything
+sudo apt-get update
+</code></pre>
+
+<pre><code class="language-BASH">BASH
+# The openssh-server is pre-installed, but you should reinstall it if any updates are available
+sudo apt install -y openssh-server
+</code></pre>
+
+<pre><code class="language-BASH">BASH
+# Check status of ssh-server
+sudo service --status-all
+# If SSH shows a negative sign, it means the SSH server is not activated yet. You need to activate it
+</code></pre>
+
+<p>Before activating OpenSSH, if you want to use key-based authentication, you need to upload your public key. For this example, we will use password-based authentication, so we first set the password for the user. By default, the user is root, but you can add as many users as you want with the privileges you wish to assign. Here, we will proceed with the root user.</p>
+
+<pre><code class="language-BASH">BASH
+# set up password for root user
+sudo passwd root
+</code></pre>
+
+<pre><code class="language-BASH">BASH
+# Permit Root Login
+sudo nano /etc/ssh/sshd_config
+# This will open the 'ssh_config' file. You need to add the line 'PermitRootLogin Yes'
+</code></pre>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CUSTOM
+# Add line
+PermitRootLogin Yes
+# After that Press &lt;ctrl + O&gt; to save the modification and after that &lt;ctrl + X&gt; to close the nano editor
+</code></pre></div></div>
+
+<pre><code class="language-BASH">BASH
+# Now you need to start the OpenSSH service if it is not already running
+sudo service ssh start
+# After this, check if the SSH service has a plus sign indicating that it is active and running
+sudo service --status-all
+</code></pre>
+
+<p>Now you are set to SSH to your GC2 instances from anywhere using SSH.</p>
+
+<pre><code class="language-BASH">BASH
+# SSH into your GC2 instance
+ssh &lt;user&gt;@&lt;Node-Public-IP&gt; -p &lt;Node-port Forwording to your Instance port 22&gt;
+# If you are using key-based authentication, you will be logged in directly as &lt;user&gt;
+# If you are using password-based authentication, you need to type your password for &lt;user&gt;
+</code></pre>
+
+<pre><code class="language-BASH">BASH
+# Let's take an example!
+# user is 'root'
+# node public-ip is '16.25.96.84'
+# forwarded node port mapped with your instance port 22 is '7852'
+ssh root@16.25.96.84 -p 7852
+# Now enter your 'root' user password that you set earlier, and you are all set
+# These configurations are one-time; you don't need to do this again
+</code></pre>
+
+<p>If you are comfortable with your local development environment, there is a way to connect your GC2 instance with your local machine. This allows you to leverage the comfort of your local development setup while benefiting from the performance acceleration provided by Dataoorts GC2 instances. <a href="/docs/connect-gc2-locally/">Set-Up Guide</a></p>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

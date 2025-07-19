@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Dataoorts Documentation | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Connect GC2 Locally | Dataoorts Documentation</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Dataoorts Documentation" />
+<meta property="og:title" content="Connect GC2 Locally" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/docs/connect-gc2-locally/" />
+<meta property="og:url" content="http://localhost:4000/docs/connect-gc2-locally/" />
 <meta property="og:site_name" content="Dataoorts Documentation" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Dataoorts Documentation" />
+<meta property="twitter:title" content="Connect GC2 Locally" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Dataoorts Documentation","name":"Dataoorts Documentation","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Connect GC2 Locally","url":"http://localhost:4000/docs/connect-gc2-locally/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dataoorts Documentation" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,59 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/07/18/kind-cluster.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Connect GC2 Locally</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="run-gc2-instance-locally">Run GC2 Instance Locally</h3>
+
+<p>You can use local port forwarding for many applications to turn your local machine into an interface powered by a remote GC2 instance. This setup allows you to enjoy the comfort of your local environment while leveraging the acceleration of GPU compute. You can use several major services locally with the hardware acceleration of GC2, including:</p>
+
+<ul>
+  <li>Google Colab</li>
+  <li>Deepnote</li>
+  <li>Jupyter</li>
+  <li>VS Code</li>
+  <li>PyCharm</li>
+  <li>RStudio</li>
+  <li>Matlab</li>
+  <li>TensorFlow</li>
+  <li>PyTorch</li>
+  <li>Apache Spark</li>
+  <li>AutoML tools</li>
+  <li>Unity 3D</li>
+  <li>GROMOS</li>
+  <li>LAMMPS</li>
+  <li>NAMD</li>
+  <li>AMBER</li>
+  <li>And many more…</li>
+</ul>
+
+<pre><code class="language-BASH"># Forward the port &lt;abcd&gt; from your local machine to port &lt;wxyz&gt; on your remote GC2 machine
+# ssh -L &lt;abcd&gt;:localhost:&lt;wxyz&gt; user@node_ip -p &lt;node port forwarded to port 22 on GC2&gt;
+ssh -L &lt;abcd&gt;:localhost:&lt;wxyz&gt; user@node_ip -p &lt;node port forwarded to port 22 on GC2&gt;
+</code></pre>
+
+<pre><code class="language-BASH"># You can also forward multiple ports
+# ports to forward: &lt;abcd&gt; --&gt; &lt;wxyz&gt; &amp; &lt;ghij&gt; --&gt; &lt;pqrs&gt;
+ssh -L &lt;abcd&gt;:localhost:&lt;wxyz&gt; -L &lt;ghij&gt;:localhost:&lt;pqrs&gt; user@node_ip -p &lt;node port forwarded to port 22 on GC2&gt;
+</code></pre>
+
+<pre><code class="language-BASH"># Let's take an example
+# forward localhost port from: 7788
+# to remote GC2 instance port: 9988
+# GC2 instance user: root
+# GC2 instance node_ip: 24.56.84.12
+# node port forwarded to port 22 on GC2: 24697
+ssh -L 7788:localhost:9988 root@24.56.84.12 -p 24697
+</code></pre>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

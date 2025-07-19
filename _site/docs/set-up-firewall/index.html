@@ -3,21 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Get Started With GC2 GPU Instances | Dataoorts Documentation</title>
+<title>Configure Firewalls and Security Groups | Dataoorts Documentation</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Get Started With GC2 GPU Instances" />
+<meta property="og:title" content="Configure Firewalls and Security Groups" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Launch GC2 Instance" />
-<meta property="og:description" content="Launch GC2 Instance" />
-<link rel="canonical" href="http://localhost:4000/onboarding/2025/03/09/get-started-with-gc2-gpu-instances.html" />
-<meta property="og:url" content="http://localhost:4000/onboarding/2025/03/09/get-started-with-gc2-gpu-instances.html" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/docs/set-up-firewall/" />
+<meta property="og:url" content="http://localhost:4000/docs/set-up-firewall/" />
 <meta property="og:site_name" content="Dataoorts Documentation" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-03-09T00:00:00+00:00" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Get Started With GC2 GPU Instances" />
+<meta property="twitter:title" content="Configure Firewalls and Security Groups" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-09T00:00:00+00:00","datePublished":"2025-03-09T00:00:00+00:00","description":"Launch GC2 Instance","headline":"Get Started With GC2 GPU Instances","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/onboarding/2025/03/09/get-started-with-gc2-gpu-instances.html"},"url":"http://localhost:4000/onboarding/2025/03/09/get-started-with-gc2-gpu-instances.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Configure Firewalls and Security Groups","url":"http://localhost:4000/docs/set-up-firewall/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dataoorts Documentation" /></head>
 <body><header class="site-header" role="banner">
@@ -32,38 +31,22 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/docs/access-applications/">Access Applications -- Tunnel</a><a class="page-link" href="/docs/connect-gc2-locally/">Connect GC2 Locally</a><a class="page-link" href="/docs/dataoorts-ai/">Serverless Cloud API - Dataoorts AI</a><a class="page-link" href="/docs/development-cloud/">GC2 Instance Documentation</a><a class="page-link" href="/docs/faqs-gc2-instance/">FAQs: GC2 Instance</a><a class="page-link" href="/docs/gc2-docker/">GC2: Docker</a><a class="page-link" href="/docs/gc2-instance-extent/">GC2 Instance Extent</a><a class="page-link" href="/docs/gc2-instance-features/">GC2 Instance Features</a><a class="page-link" href="/docs/gc2-kubernetes/">GC2: Kubernetes</a><a class="page-link" href="/docs/gc2-support/">GC2: Support</a><a class="page-link" href="/docs/gc2/">Get Started With GC2 GPU Instance</a><a class="page-link" href="/docs/get-started-x-series-gpu-instances/">Get Started With X-Series GPU Instances</a><a class="page-link" href="/docs/kind-cluster/">KinD Cluster</a><a class="page-link" href="/docs/minikube/">Minikube Cluster</a><a class="page-link" href="/docs/set-up-firewall/">Configure Firewalls and Security Groups</a><a class="page-link" href="/docs/ssh-fortify/">SSH Access Fortify</a><a class="page-link" href="/docs/ssh-gc2-instances/">SSH GC2 Instances</a><a class="page-link" href="/docs/x-series-instance-documentation/">X-Series Instance Documentation</a><a class="page-link" href="/docs/x-series-instance-faqs/">FAQs: X-Series Instance</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Get Started With GC2 GPU Instances</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2025-03-09T00:00:00+00:00" itemprop="datePublished">Mar 9, 2025
-      </time></p>
+    <h1 class="post-title">Configure Firewalls and Security Groups</h1>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="launch-gc2-instance">Launch GC2 Instance</h2>
+  <div class="post-content">
+    
 
-<h3 id="here-are-steps-to-launch-your-first-gc2-instance">Here are steps to launch your first gc2 instance:</h3>
+  </div>
 
-<p>step 1: Visit <a href="https://cloud.dataoorts.com/">https://cloud.dataoorts.com/</a> Register your account and verify your email.</p>
-
-<p>step 2: Add sufficient credit amount to start your GC2 instance.</p>
-
-<p>step 3: Select the instance type you want to spin up. The first object is the GPU model, the second object is the total GPU memory, and the third object is the total number of GPUs in the instance. For example, ‘H100-80-1’ means one Nvidia H100 GPU. For more specifications about GPU models, visit <a href="https://dataoorts.com/pricing/">https://dataoorts.com/pricing/</a>.</p>
-
-<p>step 4: Select your DMI (learn more about DMI: <a href="https://dataoorts.com/dmi/">https://dataoorts.com/dmi/</a> and Launch Instance.</p>
-
-<p>step 5: To access your instance, we provide a Jupyter-based web SSH session. fyi, You can add your preferred method for accessing the instance.</p>
-
-<p>Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.</p>
-
-  </div><a class="u-url" href="/onboarding/2025/03/09/get-started-with-gc2-gpu-instances.html" hidden></a>
 </article>
 
       </div>
