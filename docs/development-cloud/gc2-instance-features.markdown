@@ -2,6 +2,8 @@
 layout: page
 title: GC2 Instance Features
 permalink: /docs/gc2-instance-features/
+parent: "GC2 Instance Documentation"
+nav_order: 2
 ---
 
 ## Features of GC2 Instances

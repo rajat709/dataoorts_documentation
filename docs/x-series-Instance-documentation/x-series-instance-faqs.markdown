@@ -2,9 +2,11 @@
 layout: page
 title: "FAQs: X-Series Instance" 
 permalink: /docs/x-series-instance-faqs/
+parent: "X-Series Instance Documentation"
+nav_order: 2
 ---
 
-### X-Series Instance — F.A.Qs
+## X-Series Instance — F.A.Qs
 
 <details>
 <summary>What is DDRA ?</summary>

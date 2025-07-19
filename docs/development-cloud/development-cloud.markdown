@@ -2,6 +2,8 @@
 layout: page
 title: GC2 Instance Documentation 
 permalink: /docs/development-cloud/
+nav_order: 1
+has_children: true
 ---
 
 ### [Get Started With GC2 GPU Instances](/docs/gc2/)

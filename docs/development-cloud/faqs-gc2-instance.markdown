@@ -2,9 +2,11 @@
 layout: page
 title: "FAQs: GC2 Instance" 
 permalink: /docs/faqs-gc2-instance/
+parent: "GC2 Instance Documentation"
+nav_order: 6
 ---
 
-### GC2 Instance — F.A.Qs
+## GC2 Instance — F.A.Qs
 
 <details>
 <summary>What is DDRA ?</summary>

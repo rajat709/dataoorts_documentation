@@ -2,34 +2,36 @@
 layout: page
 title: SSH GC2 Instances
 permalink: /docs/ssh-gc2-instances/
+parent: "GC2 Instance Documentation"
+nav_order: 3
 ---
 
-### Access GC2 Instance — SSH
-You can access our GC2 instance either directly through a browser or from your local machine.
+## Access GC2 Instance — SSH
+You can access our GC2 instance either directly through a browser or from your local machine.<br><br>
 Ways to Access the GC2 Instance:
-Web Based Jupyter Terminal (Depreciated)
+1. Web Based Jupyter Terminal (Depreciated)
+2. SSH
 
-SSH
-
-#### Web Based Terminal - Jupyter (Depreciated)
+### Web Based Terminal - Jupyter (Depreciated)
 We provide direct access to a web terminal (Jupyter-based). You don't need to set up anything. Just choose your instance type and DMI, and launch the instance. You will find a button for ‘‘Web-SSH’’ for web-based terminal access.
 
-#### SSH
+### SSH
 To use SSH, you need to manually set up an SSH server on the GC2 instance. You can choose either password-based or key-based authentication. Below is a quick tutorial on how to set up an SSH connection.  
 
-```BASH
+```bash
 BASH
 # Update everything
 sudo apt-get update
 ```
 
-```BASH
+
+```bash
 BASH
 # The openssh-server is pre-installed, but you should reinstall it if any updates are available
 sudo apt install -y openssh-server
 ```
 
-```BASH
+```bash
 BASH
 # Check status of ssh-server
 sudo service --status-all
@@ -38,13 +40,13 @@ sudo service --status-all
 
 Before activating OpenSSH, if you want to use key-based authentication, you need to upload your public key. For this example, we will use password-based authentication, so we first set the password for the user. By default, the user is root, but you can add as many users as you want with the privileges you wish to assign. Here, we will proceed with the root user.
 
-```BASH
+```bash
 BASH
 # set up password for root user
 sudo passwd root
 ```
 
-```BASH
+```bash
 BASH
 # Permit Root Login
 sudo nano /etc/ssh/sshd_config
@@ -58,7 +60,7 @@ PermitRootLogin Yes
 # After that Press <ctrl + O> to save the modification and after that <ctrl + X> to close the nano editor
 ```
 
-```BASH
+```bash
 BASH
 # Now you need to start the OpenSSH service if it is not already running
 sudo service ssh start
@@ -68,7 +70,7 @@ sudo service --status-all
 
 Now you are set to SSH to your GC2 instances from anywhere using SSH.
 
-```BASH
+```bash
 BASH
 # SSH into your GC2 instance
 ssh <user>@<Node-Public-IP> -p <Node-port Forwording to your Instance port 22>
@@ -76,7 +78,7 @@ ssh <user>@<Node-Public-IP> -p <Node-port Forwording to your Instance port 22>
 # If you are using password-based authentication, you need to type your password for <user>
 ```
 
-```BASH
+```bash
 BASH
 # Let's take an example!
 # user is 'root'

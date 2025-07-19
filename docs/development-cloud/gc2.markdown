@@ -2,6 +2,8 @@
 layout: page
 title: Get Started With GC2 GPU Instance
 permalink: /docs/gc2/
+parent: "GC2 Instance Documentation"
+nav_order: 1
 ---
 
 ## Launch GC2 Instance

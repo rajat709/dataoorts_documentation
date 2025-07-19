@@ -2,9 +2,11 @@
 layout: page
 title: Connect GC2 Locally
 permalink: /docs/connect-gc2-locally/
+parent: "GC2 Instance Documentation"
+nav_order: 4
 ---
 
-### Run GC2 Instance Locally
+## Run GC2 Instance Locally
 
 You can use local port forwarding for many applications to turn your local machine into an interface powered by a remote GC2 instance. This setup allows you to enjoy the comfort of your local environment while leveraging the acceleration of GPU compute. You can use several major services locally with the hardware acceleration of GC2, including:
 
@@ -26,19 +28,19 @@ You can use local port forwarding for many applications to turn your local machi
 * AMBER
 * And many more…
 
-```BASH
+```bash
 # Forward the port <abcd> from your local machine to port <wxyz> on your remote GC2 machine
 # ssh -L <abcd>:localhost:<wxyz> user@node_ip -p <node port forwarded to port 22 on GC2>
 ssh -L <abcd>:localhost:<wxyz> user@node_ip -p <node port forwarded to port 22 on GC2>
 ```
 
-```BASH
+```bash
 # You can also forward multiple ports
 # ports to forward: <abcd> --> <wxyz> & <ghij> --> <pqrs>
 ssh -L <abcd>:localhost:<wxyz> -L <ghij>:localhost:<pqrs> user@node_ip -p <node port forwarded to port 22 on GC2>
 ```
 
-```BASH
+```bash
 # Let's take an example
 # forward localhost port from: 7788
 # to remote GC2 instance port: 9988

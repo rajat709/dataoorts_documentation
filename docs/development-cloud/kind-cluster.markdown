@@ -2,26 +2,28 @@
 layout: page
 title: "KinD Cluster"
 permalink: /docs/kind-cluster/
+parent: "GC2 Instance Documentation"
+nav_order: 10
 ---
 
 
-### KinD In GC2
+## KinD In GC2
 [Linux]
 
 To Install KinD, You Need To Follow The Instructions Given Here: [https://kind.sigs.k8s.io/docs/user/quick-start/](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
-#### Install Kubectl
+### Install Kubectl
 [Linux]
 
 Follow These Instruction: [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
 Enable GPU Access In KinD Cluster
-```BASH
+```bash
 # Verify that everything is set up before moving further
 sudo apt-get update
 curl -O https://raw.githubusercontent.com/rajat709/Cloud-API-Builder/main/meta/kind-verify.sh && chmod +x kind-verify.sh && ./kind-verify.sh; status=$? && rm -f kind-verify.sh
 ```
-```BASH
+```bash
 # Create a Kind Cluster --v1.27.3
 kind create cluster --name dataoorts --config - <<EOF
 apiVersion: kind.x-k8s.io/v1alpha4
@@ -35,7 +37,7 @@ nodes:
       containerPath: /var/run/nvidia-container-devices/all
 EOF
 ```
-```BASH
+```bash
 docker exec -ti dataoorts-control-plane ln -s /sbin/ldconfig /sbin/ldconfig.real
 ```
 ```
@@ -46,7 +48,7 @@ helm install --wait --generate-name \
      -n gpu-operator --create-namespace \
      nvidia/gpu-operator --set driver.enabled=false
 ```
-```BASH
+```bash
 # Now you are all set, test your gpus by running a simple pod
 kubectl apply -f - << EOF
 apiVersion: v1

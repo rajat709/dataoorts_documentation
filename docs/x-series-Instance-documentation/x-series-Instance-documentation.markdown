@@ -2,6 +2,8 @@
 layout: page
 title: X-Series Instance Documentation  
 permalink: /docs/x-series-instance-documentation/
+nav_order: 2
+has_children: true
 ---
 
 ### [Get Started With X-Series GPU Instances](/docs/get-started-x-series-gpu-instances/)

@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+enable_copy_code_button: true
 title: Dataoorts Documentation
 email: help@dataoorts.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -32,9 +32,10 @@ youtube_username: dataoorts
 github_username:  
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

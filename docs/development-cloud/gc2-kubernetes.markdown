@@ -2,8 +2,10 @@
 layout: page
 title: "GC2: Kubernetes"
 permalink: /docs/gc2-kubernetes/
+parent: "GC2 Instance Documentation"
+nav_order: 9
 ---
-### Get Started With K8s In GC2 Instance
+## Get Started With K8s In GC2 Instance
 Setting up a Kubernetes cluster on a GC2 instance has been tested with KinD, Minikube, and Rancher K3s. Before setting up your Kubernetes environment, ensure you select Docker as the driver and configure it to use the GPU devices you want to make visible in your pods.
 
 1. [Setting Up Kubernetes via KinD](https://dataoorts.document360.io/docs/kind-cluster)

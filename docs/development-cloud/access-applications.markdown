@@ -2,17 +2,19 @@
 layout: page
 title: Access Applications -- Tunnel 
 permalink: /docs/access-applications/
+parent: "GC2 Instance Documentation"
+nav_order: 7
 ---
 
-### Access Applications Running In GC2 Via Tunneling
+## Access Applications Running In GC2 Via Tunneling
 To access your application running in GC2 on any particular port using a local tunnel to make it publicly accessible, you can use any tunneling service. However, ensure that it is a trusted service since tunneling is a critical process that can introduce many vulnerabilities. We recommend using ngrok or cloudflare, In DMI, we have already installed ngrok and cloudflared services.
 
-#### Ngrok Tunnel
+### Ngrok Tunnel
 Ngrok Local Tunnel: [https://dashboard.ngrok.com/](https://dashboard.ngrok.com/)
 
 Create Tunnel
 
-```BASH
+```bash
 # Download and Install Ngrok
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 	| sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
@@ -21,11 +23,11 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 	&& sudo apt update \
 	&& sudo apt install ngrok
 ```
-```Bash
+```bash
 # Run the following command to add your authtoken to the default ngrok.yml, Get your authtoken here:https://dashboard.ngrok.com/get-started/your-authtoken
 ngrok config add-authtoken <your-authtoken>
 ```
-```Bash
+```bash
 # Let's suppose your application is running on port 8080, and you want to make that port publicly available
 ngrok http http://localhost:8080
 ```
@@ -38,12 +40,12 @@ Extra: Ngrok offers several third-party plugins that enhance tunnel analysis, im
 Cloudflared Tunnel:[ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/]( https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
 **Create Tunnel**
-```BASH
+```bash
 # Let's suppose your application is running on port 8888, and you want to make that port publicly available
 ./cloudflared-linux-amd64 --url [http://localhost:8888](http://localhost:8888)
 ```
 **Example Output:**
-```BASH
+```bash
 2024-05-31T08:12:59Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
 2024-05-31T08:12:59Z INF Requesting new quick Tunnel on trycloudflare.com...
 2024-05-31T08:13:00Z INF +--------------------------------------------------------------------------------------------+

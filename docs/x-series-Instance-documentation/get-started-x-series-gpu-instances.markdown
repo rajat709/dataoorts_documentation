@@ -2,10 +2,13 @@
 layout: page
 title: Get Started With X-Series GPU Instances
 permalink: /docs/get-started-x-series-gpu-instances/
+parent: "X-Series Instance Documentation"
+nav_order: 1
 ---
 
-### Launch X-Series Instance
+## Launch X-Series Instance
 Here are steps to launch your first x-series instance:
+<br><br>
 step 1: Visit [Here](https://cloud.dataoorts.com/) | Register your account and verify your email and make sure x-series instance starts with “x_“ or “x-“.
 
 step 2: Add sufficient credit amount to start your x-series instance.
