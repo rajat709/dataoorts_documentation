@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GC2 Instance Documentation 
-permalink: /docs/development-cloud/
+permalink: /_site/docs/development-cloud/
 ---
 
 ### [Get Started With GC2 GPU Instances](/docs/gc2/)
