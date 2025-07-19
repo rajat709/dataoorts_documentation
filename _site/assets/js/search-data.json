@@ -36,7 +36,7 @@
   },"5": {
     "doc": "API For Email Verification",
     "title": "👉 Get your Unify API KEY Here",
-    "content": "Our REST API enables AI-powered email verification and is compatible with any framework. For demonstration purposes, we have used Python as an example. ",
+    "content": ". Our REST API enables AI-powered email verification and is compatible with any framework. For demonstration purposes, we have used Python as an example. ",
     "url": "/dataoorts_documentation/docs/api-email-verification/#-get-your-unify-api-key-here",
     
     "relUrl": "/docs/api-email-verification/#-get-your-unify-api-key-here"
@@ -64,7 +64,7 @@
   },"9": {
     "doc": "Bulk Email Verification",
     "title": "To verify bulk emails, Visit Here and follow these steps:",
-    "content": ". | Get Your API Key – Obtain your Unify API key from Here and paste it into the API Section to validate your Dataoorts account. | Upload Your File – Select the file containing the Emails(Less than 50K)—Upload, then press Submit to begin processing. | Save Your Job ID – After initial checks, your batch job ID will be returned, and your email-file will enter the processing queue. Since this ID is volatile due to enhanced security, Ensure you Save it somewhere in secure place for fetching the job result. | Wait Briefly – Take a short break, Perhaps enjoy a cup of tea. | Retrieve Results – Visit Here, Enter your Unify API Key and job ID, and access the verified emails in JSON format, ready for download. | . Developers: Bulk Email Verification API If you’re searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API documentation Here. ",
+    "content": ". | Get Your API Key – Obtain your Unify API key from Here and paste it into the API Section to validate your Dataoorts account. | Upload Your File – Select the file containing the Emails(Less than 50K)—Upload, then press Submit to begin processing. | . | Save Your Job ID – After initial checks, your batch job ID will be returned, and your email-file will enter the processing queue. Since this ID is volatile due to enhanced security, Ensure you Save it somewhere in secure place for fetching the job result. | Wait Briefly – Take a short break, Perhaps enjoy a cup of tea. | Retrieve Results – Visit Here, Enter your Unify API Key and job ID, and access the verified emails in JSON format, ready for download. | . Developers: Bulk Email Verification API If you’re searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API documentation Here. ",
     "url": "/dataoorts_documentation/docs/bulk-email-verification/#to-verify-bulk-emails-visit-here-and-follow-these-steps",
     
     "relUrl": "/docs/bulk-email-verification/#to-verify-bulk-emails-visit-here-and-follow-these-steps"
@@ -225,7 +225,7 @@
   },"32": {
     "doc": "Verify Emails Instantly and Extract Key Data—Powered by AI",
     "title": "Get Started Instantly",
-    "content": "1. ⚡ Use our Web Dashboard - Beginner Friendly. | ✧ Free Trial: https://mails.dataoorts.com (3 verifications per user) | ✧ Unlimited Access: https://cloud.dataoorts.com/aicrm_mails (Hosted on Dataoorts) | . 2. ✨ API Integration – Ideal for automated workflows and scalable solutions. | 🚀 One integration, endless possibilities | ✔️Handles Multiple Requests Concurrently | ⚡ Serverless pay-per-verification | 🌐 Global deliverability intelligence | 👉 Grab Your API Key Now | . Simple &amp; Transparent Pricing . | No subscriptions – Pay per use | $0.20 minimum balance (threshold) | Unified credits – Works across all Dataoorts services | Most Affordable &amp; Accurate Email Verification - Guaranteed | Credits never expires – Use across our service ecosystem | . → Price Calculator . Contact Sales . Custom Solutions Available! . Need enterprise volume, white-labeling, or unique workflows? . 📩 Contact Our Sales Team: . | help@dataoorts.com | Fill out quick sales form | . ",
+    "content": "1. ⚡ Use our Web Dashboard - Beginner Friendly. | ✧ Free Trial: https://mails.dataoorts.com (3 verifications per user) | ✧ Unlimited Access: https://cloud.dataoorts.com/aicrm_mails (Hosted on Dataoorts) | . 2. ✨ API Integration – Ideal for automated workflows and scalable solutions. | 🚀 One integration, endless possibilities | ✔️Handles Multiple Requests Concurrently | ⚡ Serverless pay-per-verification | 🌐 Global deliverability intelligence | 👉 Grab Your API Key Now | . Simple &amp; Transparent Pricing . | Plan | Price Per Email Verification | Features | . | Free Trial | $0.0000 | 3 free verifications per user | . | Basic Email Verification | $0.0001 | Standard email checks | . | AI-Powered Email Verification | $0.0002 | + AI data prediction linked with email | . | No subscriptions – Pay per use | $0.20 minimum balance (threshold) | Unified credits – Works across all Dataoorts services | Most Affordable &amp; Accurate Email Verification - Guaranteed | Credits never expires – Use across our service ecosystem | . → Price Calculator . Contact Sales . Custom Solutions Available! . Need enterprise volume, white-labeling, or unique workflows? . 📩 Contact Our Sales Team: . | help@dataoorts.com | Fill out quick sales form | . ",
     "url": "/dataoorts_documentation/docs/verify-emails-instantly-and-extract-key-data-powered-by-ai#get-started-instantly",
     
     "relUrl": "/docs/verify-emails-instantly-and-extract-key-data-powered-by-ai#get-started-instantly"
@@ -533,7 +533,7 @@
   },"76": {
     "doc": "Potential Use Cases",
     "title": "Potential Use Cases",
-    "content": " ",
+    "content": "Let’s move forward and explore the potential use cases of AI-powered email verification and data extractor. ",
     "url": "/dataoorts_documentation/docs/potential-usecases/",
     
     "relUrl": "/docs/potential-usecases/"

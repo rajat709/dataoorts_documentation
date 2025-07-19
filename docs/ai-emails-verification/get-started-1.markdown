@@ -32,6 +32,12 @@ Email Verification, the Serverless Way<br>
 
 ### Simple & Transparent Pricing
 
+| Plan                         | Price Per Email Verification|  Features                              |
+|:----------------------------:|:---------------------------:|:--------------------------------------:|
+|Free Trial                    | $0.0000                     | 3 free verifications per user          |
+|Basic Email Verification      | $0.0001                     | Standard email checks                  |
+|AI-Powered Email Verification | $0.0002                     | + AI data prediction linked with email |
+
 
 * **No subscriptions – Pay per use**
 * **$0.20 minimum balance (threshold)**

@@ -21,6 +21,8 @@ parent: "AI Powered Email Verification"
 
 **Note: Dataoorts' Unified Credit system lets you access all APIs and services (email verification, cloud GPU, Serverless AI, etc.) with a single credit pool. Deploy resources smarter across our entire platform.**
 
+![Dataoorts Signup Page](register_get_started.png)
+
 ### Step 2: Power Up Your Account & Start Verifying!
 🔑 1. Log in to your dashboard [Here](###)
 
@@ -37,6 +39,8 @@ parent: "AI Powered Email Verification"
 ✔ Instant Activation – Start verifying emails in seconds
 
 👉 Get started now:[ Dataoorts Dashboard](https://cloud.dataoorts.com/dashboard)
+
+![Dataoorts Dashboard - Add Credits](register_get_started_2.png)
 
 > You are all set!
 Coming Next: Discover Web Interface and API Integration Ways to Verify Emails!

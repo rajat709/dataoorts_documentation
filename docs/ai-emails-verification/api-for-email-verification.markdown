@@ -13,6 +13,7 @@ Our API features an async architecture, allowing you to handle multiple requests
 
 ## 👉 Get your Unify API KEY [Here](https://cloud.dataoorts.com/unify_api)
 
+![Dataoorts Unify API - AI Mails Verification](api_for_email_verification.jpg)
 
 > Our REST API enables AI-powered email verification and is compatible with any framework. For demonstration purposes, we have used Python as an example.
 

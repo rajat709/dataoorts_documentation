@@ -25,10 +25,13 @@ parent: "AI Powered Email Verification"
 * **Get Your API Key** – Obtain your Unify API key from [Here](https://cloud.dataoorts.com/unify_api) and paste it into the [API Section](https://mails.dataoorts.com/batch) to validate your Dataoorts account.
 * **Upload Your File** – Select the file containing the Emails(Less than 50K)—Upload, then press Submit to begin processing.
 
+![Bulk Email Verification WebUI - Hosted in Hugging Face](bulk_email_verification.png)
 
 * **Save Your Job ID** – After initial checks, your batch job ID will be returned, and your email-file will enter the processing queue. Since this ID is volatile due to enhanced security, Ensure you Save it somewhere in secure place for fetching the job result.
 * **Wait Briefly** – Take a short break, Perhaps enjoy a cup of tea.
 * **Retrieve Results** – Visit Here, Enter your Unify API Key and job ID, and access the verified emails in JSON format, ready for download.
+
+![Bulk Email Verification WebUI - Hosted in Hugging Face](bulk_email_verification_2.png)
 
 >Developers: Bulk Email Verification API
 <br> If you're searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API documentation [Here](https://dataoorts.document360.io/v1/docs/api-email-verification).

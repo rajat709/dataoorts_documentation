@@ -29,6 +29,8 @@ Start with our free trial - verify up to 3 emails at no cost.
 
 **Note: Free trial limited to 3 verifications per user.**
 
+![Dataoorts AI-Powered Mail Verification - Trial Purpose (Hosted in Hugging Face Spaces)](single_image_verification.png)
+
 ## 2. Verify Unlimited Emails with Zero Hassle!
 ### Hosted on Dataoorts Portal - Your one-stop solution for Deep Email verification
 **Key Benefits:**
@@ -62,6 +64,8 @@ Start with our free trial - verify up to 3 emails at no cost.
 ✓ Pay only for what you verify
 
 **"From small lists to millions - we scale with your needs!"**
+
+![Dataoorts AI-Powered Email Verification - Limitless (Hosted in Dataoorts Cloud)](single_image_verification_2.png)
 
 > Are you a Developer?<br>
 If you're searching for an API, we also offer access to all our services with api, including AI-powered email verification. Get the API documentation Here
