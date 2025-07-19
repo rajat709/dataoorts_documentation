@@ -2498,3 +2498,24 @@ blockquote.warning-title > p:last-child { margin-bottom: 0; }
 .site-nav .nav-list-item a { font-size: 1.2em; }
 
 .side-bar { width: 24%; }
+
+/* Style for collapsible details */
+.fancy-details { border: 1px solid #dadada; /* Black border */ border-radius: 10px; padding: 0; margin-bottom: 1.5em; background: #f7fafc; max-width: 700px; overflow: hidden; }
+
+/* Style summary as header */
+.fancy-details summary { font-weight: 600; font-size: 1.1em; padding: 1em 2.5em 0.2em 1em; cursor: pointer; outline: none; border-radius: 8px 8px 0 0; list-style: none; position: relative; text-align: left; display: block; }
+
+.fancy-details[open] summary { border-bottom: 1.5px solid #dadada; }
+
+.fancy-details summary { border-bottom: none; }
+
+/* The thick black separator line under summary */
+.fancy-details summary::after { content: "▼"; position: absolute; right: 1.1em; top: 50%; transform: translateY(-50%); font-size: 1.1em; pointer-events: none; display: inline-block; }
+
+/* Style open/closed differently if needed */
+.fancy-details[open] summary::after { /* Remains the same: keeps border tight below summary */ content: "▲"; }
+
+/* Style the content inside details */
+.fancy-details > *:not(summary) { padding: 0.6em; text-align: left; }
+
+.fancy-details-content { padding: 1em 1.3em 1em 1.3em; text-align: left; }

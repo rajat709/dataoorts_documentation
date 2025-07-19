@@ -35,9 +35,11 @@ step 5: To access your instance, we provide a Jupyter-based web SSH session. fyi
 {: .highlight }
 > Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.
 
-<details>
+<details class="fancy-details">
 <summary>DDRA Cluster for Hosting GC2 Instances Nodes</summary>
+<div class="fancy-details-content">
 All GC2 instances are hosted within Dataoorts' globally distributed DDRA Cluster. As community-based instances, GC2 leverages decentralized GPUs worldwide, ensuring robust isolation and a secure operating environment.
+</div>
 </details>
 
 <br>

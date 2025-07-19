@@ -35,11 +35,13 @@ step 5: To access your instance, Default **temporary.pem** SSH key is automatica
 {: .highlight }
 > Note: While the instance is launching or terminating, do not close or refresh the browser. It will take a while to process everything.
 
-<details>
+<details class="fancy-details">
 <summary>
 Super-DDRA Cluster for Hosting X-Series Instance Nodes
 </summary>
+<div class="fancy-details-content">
 All X-Series instances are hosted in a secure cloud environment within Tier 3 and Tier 4 data centers. The DDRA Cluster for X-Series consists of a globally distributed hybrid GPU infrastructure, integrating our own GPU racks in data centers alongside major cloud and GPU providers.
+</div>
 </details>
 <br>
 
