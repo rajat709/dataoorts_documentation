@@ -2494,10 +2494,10 @@ blockquote.warning-title > p:nth-child(2) { margin-top: 0; }
 blockquote.warning-title > p:last-child { margin-bottom: 0; }
 
 .site-nav .nav-list { width: 100%; }
-.site-nav .nav-list .nav-list-link { width: 100%; margin: 0px 8px 0px 0px; font-size: 1.2em; padding: 0 0.5em 1.2em 0; }
+.site-nav .nav-list .nav-list-link { width: 100%; margin: 0px 8px 0px 0px; font-size: 1.2em; padding: 0 0 1.2em 0; padding-right: 1.5em; }
 .site-nav .nav-list-item a { font-size: 1.2em; }
 
-.side-bar { width: 24%; }
+.side-bar { width: 20%; padding: 0.5rem 1rem; overflow: hidden; text-overflow: ellipsis; font-size: 0.875rem; line-height: 1.2; }
 
 /* Style for collapsible details */
 .fancy-details { border: 1px solid #dadada; /* Black border */ border-radius: 10px; padding: 0; margin-bottom: 1.5em; background: #f7fafc; max-width: 700px; overflow: hidden; }

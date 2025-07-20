@@ -7,17 +7,25 @@
         width: 100%;
         margin: 0px 8px 0px 0px;
         font-size: 1.2em;
-        padding: 0 0.5em 1.2em 0;
+        padding: 0 0 1.2em 0;
+        padding-right: 1.5em;
     }
 
     .nav-list-item a {
         font-size: 1.2em;
     }
+
 }
 
 .side-bar {
- width: 24%;
+ width: 20%;
+ padding: 0.5rem 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.875rem;
+  line-height: 1.2;
 }
+
 
 /* Style for collapsible details */
 .fancy-details {
