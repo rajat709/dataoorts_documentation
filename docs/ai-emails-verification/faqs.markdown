@@ -23,7 +23,6 @@ updated: May 23, 2025
 ## F.A.Qs
 
 ### We have addressed common questions here, but if you need further assistance, Do not hesitate to contact us anytime at [help@dataoorts.com](help@dataoorts.com).
-<br>
 
 <details class="fancy-details">
 <summary>How is the email holder name predicted?</summary>
@@ -31,7 +30,6 @@ updated: May 23, 2025
 We’ve trained a robust machine learning model on a vast corpus of email data to accurately estimate the likely name associated with an email address. The model uses advanced permutations and logic patterns that users often follow when creating their emails. While the predictions aren't always perfect, they offer a high degree of accuracy in most cases. For completely random or abstract email addresses, the system defaults to extracting the username portion. This helps reduce the chance of emails being flagged as spam, particularly when users don’t provide additional information during fast registrations. Our solution combines AI-driven name prediction with modern email verification to enhance deli
 </div>
 </details>
-
 
 <details class="fancy-details">
 <summary>Is there a usage limit?</summary>
@@ -41,7 +39,6 @@ We’ve trained a robust machine learning model on a vast corpus of email data t
 This limit is temporary and protects our system from abuse. If you need a higher limit, feel free to reach out to us at [help@dataoorts.com](help@dataoorts.com) — we’ll be happy to increase it..
 </div>
 </details>
-
 
 <details class="fancy-details">
 <summary>What is the pricing structure?</summary>

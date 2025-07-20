@@ -53,5 +53,4 @@ updated: May 23, 2025
 
 {: .important }
 >Developers: Bulk Email Verification API
-> <br> If you're searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API 
-> documentation [Here](https://dataoorts.document360.io/v1/docs/api-email-verification).
+> If you're searching for an API, we also offer access to all our services with api, Including AI-powered bulk email verification. Get the API documentation [Here](https://dataoorts.document360.io/v1/docs/api-email-verification).

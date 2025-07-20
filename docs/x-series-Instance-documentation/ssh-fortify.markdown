@@ -24,8 +24,7 @@ updated: Mar 10, 2025
 This doc will guide you through the process of replacing your existing SSH keys on your Linux VM with a new key pair. This is a common security practice, especially if your default private key is auto-generated or if you simply want to refresh your keys.
 
 {: .highlight }
-> If you choose not to rotate your private key and decide to stick with the default `temporary.pem` key, we strongly recommend configuring firewall
-> restrictions and limiting access to a specific set of IP addresses. To configure the firewall, refer to its documentation available [Here](https://dataoorts.document360.io/v1/docs/set-up-firewall-and-security-groups).
+> If you choose not to rotate your private key and decide to stick with the default `temporary.pem` key, we strongly recommend configuring firewall restrictions and limiting access to a specific set of IP addresses. To configure the firewall, refer to its documentation available [Here](https://dataoorts.document360.io/v1/docs/set-up-firewall-and-security-groups).
 >
 
 ### Assumptions:
@@ -61,7 +60,7 @@ Explanation of the command:
 
 2. Press Enter to accept the default filename id_rsa (private key) and id_rsa.pub (public key) in the current directory (C:\Users\rjvishwa\Downloads\keys in this example). You can also enter a different filename if you wish. (***Note:*** On Linux/Mac the keys will be saved in your home directory typically under ~/.ssh/).
 
-3. After that Enter passphrase (empty for no passphrase) | You will be prompted to enter a passphrase to protect your private key. It is highly recommended to use a strong passphrase. If your private key is compromised, the passphrase provides an extra layer of security. If you don't want a passphrase (less secure, but more convenient), just press Enter twice to leave it blank.
+3. After that Enter passphrase (empty for no passphrase) or You will be prompted to enter a passphrase to protect your private key. It is highly recommended to use a strong passphrase. If your private key is compromised, the passphrase provides an extra layer of security. If you don't want a passphrase (less secure, but more convenient), just press Enter twice to leave it blank.
 
 ### You will see output similar to this:
 ```

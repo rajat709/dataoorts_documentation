@@ -21,8 +21,8 @@ updated: Mar 9, 2025
 
 ## Launch X-Series Instance
 Here are steps to launch your first x-series instance:
-<br><br>
-step 1: Visit [Here](https://cloud.dataoorts.com/) | Register your account and verify your email and make sure x-series instance starts with “x_“ or “x-“.
+
+step 1: Visit [Here](https://cloud.dataoorts.com/) or Register your account and verify your email and make sure x-series instance starts with “x_“ or “x-“.
 
 step 2: Add sufficient credit amount to start your x-series instance.
 
@@ -43,7 +43,6 @@ Super-DDRA Cluster for Hosting X-Series Instance Nodes
 All X-Series instances are hosted in a secure cloud environment within Tier 3 and Tier 4 data centers. The DDRA Cluster for X-Series consists of a globally distributed hybrid GPU infrastructure, integrating our own GPU racks in data centers alongside major cloud and GPU providers.
 </div>
 </details>
-<br>
 
 {: .warning-title }
 > Report Issue/Bug

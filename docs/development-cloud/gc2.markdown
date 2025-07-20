@@ -42,8 +42,6 @@ All GC2 instances are hosted within Dataoorts' globally distributed DDRA Cluster
 </div>
 </details>
 
-<br>
-
 {: .warning}
 > Report Issue/Bug
 >
