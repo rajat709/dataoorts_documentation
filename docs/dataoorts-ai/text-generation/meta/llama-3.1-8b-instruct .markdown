@@ -1,7 +1,7 @@
 ---
 layout: page
 title: meta/llama-3.1-8b-instruct
-permalink: /docs/metallama-31-8b-instruct/
+permalink: /docs/metallama-3.1-8b-instruct/
 parent: "Text Generation"
 nav_order: 7
 published: Mar 14, 2025
