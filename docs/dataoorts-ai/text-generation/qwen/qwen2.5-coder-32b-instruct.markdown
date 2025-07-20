@@ -3,7 +3,7 @@ layout: page
 title: qwen/qwen2.5-coder-32b-instruct
 permalink: /docs/qweb-coder/
 parent: "Text Generation"
-nav_order: 9
+nav_order: 10
 published: Jun 11, 2025
 updated: Jun 11, 2025
 ---

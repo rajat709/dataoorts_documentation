@@ -2,8 +2,8 @@
 layout: page
 title: qwen/qwq-32b 
 permalink: /docs/qwenqwen-32b/
-parent: "Image Generation"
-nav_order: 8
+parent: "Text Generation"
+nav_order: 9
 published: Jun 11, 2025
 updated: Jun 11, 2025
 ---

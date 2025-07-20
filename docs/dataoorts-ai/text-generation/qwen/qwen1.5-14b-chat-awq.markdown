@@ -3,7 +3,7 @@ layout: page
 title: qwen/qwen1.5-14b-chat-awq 
 permalink: /docs/qwenqwen1.5-1.4b-chat-awq/
 parent: "Text Generation"
-nav_order: 10
+nav_order: 11
 published: Mar 14, 2025
 updated: Jun 11, 2025
 ---

@@ -3,7 +3,7 @@ layout: page
 title: meta/llama-guard-3-8b
 permalink: /docs/metallama-guard-3-8b/
 parent: "Text Generation"
-nav_order: 1
+nav_order: 8
 published: Mar 14, 2025
 updated: Jun 11, 2025
 ---

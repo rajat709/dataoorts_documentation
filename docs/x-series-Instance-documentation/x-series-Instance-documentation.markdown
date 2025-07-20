@@ -20,7 +20,7 @@ Launch X-Series Instance Here are steps to launch your first x-series instance: 
 X-Series Instance — F.A.Qs What is DDRA ? Learn about DDRA Here . Is it necessary to secure my SSH access after launching the VM ? Yes, it is highly recommended to secure your SSH access. You should either reset the SSH key...
 <br>
 
-### [SSH Access Fortify](/dataoorts_documentation/doc/ssh-fortify/)
+### [SSH Access Fortify](/dataoorts_documentation/docs/ssh-fortify/)
 Replacing SSH Keys on Your X-Series VMs This doc will guide you through the process of replacing your existing SSH keys on your Linux VM with a new key pair. This is a common security practice, especially if your default private key is auto-generat...
 <br>
 

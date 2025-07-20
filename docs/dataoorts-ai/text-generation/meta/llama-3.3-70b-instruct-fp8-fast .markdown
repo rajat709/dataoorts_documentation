@@ -1,7 +1,7 @@
 ---
 layout: page
 title: meta/llama-3.3-70b-instruct-fp8-fast
-permalink: /docs/metallama-3.3-70b-instruct-fp8-fast
+permalink: /docs/metallama-3.3-70b-instruct-fp8-fast/
 parent: "Text Generation"
 nav_order: 5
 published: Mar 14, 2025
