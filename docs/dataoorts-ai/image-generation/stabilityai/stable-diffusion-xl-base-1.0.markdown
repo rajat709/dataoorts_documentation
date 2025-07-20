@@ -1,7 +1,7 @@
 ---
 layout: page
 title: stabilityai/stable-diffusion-xl-base-1.0
-permalink: /docs/stabilityaistable-diffusion-xl-base-10
+permalink: /docs/stabilityaistable-diffusion-xl-base-10/
 parent: "Image Generation"
 nav_order: 2
 published: Mar 14, 2025
@@ -26,7 +26,7 @@ updated: Jun 28, 2025
 |---------------------------|-----------------------------------------|
 | Model Type                |    Image Generation                     |
 | Model Cost                | $0.008 Per Image                        |
-| Model Hosted (Region)     | US, Norway, India                       |
+| Model Hosted (Region)     | US, Norway and India                       |
 | Model Available (Region)  | Global                                  |
 | Model Base Architecture   | Diffusion                               |
 | Model Endpoint Access URL | https://cloud.dataoorts.com/api/v1      |

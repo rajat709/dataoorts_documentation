@@ -1,9 +1,9 @@
 ---
 layout: page
 title: bytedance/stable-diffusion-xl-lightning
-permalink: /docs/bytedancestable-diffusion-xl-lightning
+permalink: /docs/bytedancestable-diffusion-xl-lightning/
 parent: "Image Generation"
-nav_order: 2
+nav_order: 3
 published: Mar 14, 2025
 updated: Jun 11, 2025
 ---

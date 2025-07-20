@@ -1,9 +1,9 @@
 ---
 layout: page
 title: lykon/dreamshaper-8-lcm
-permalink: /docs/lykondreamshaper-8-lcm
+permalink: /docs/lykondreamshaper-8-lcm/
 parent: "Image Generation"
-nav_order: 1
+nav_order: 4
 published: Mar 14, 2025
 updated: Jun 11, 2025
 ---
