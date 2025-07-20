@@ -26,7 +26,7 @@ updated: Jun 11, 2025
 | Model Type                |    Text  Generation                     |
 | Model Cost(Input)         | $0.07 Per Million Tokens                |
 | Model Cost(Output)        | $0.08 Per Million Tokens                |
-| Model Hosted (Region)     | US, Norway, India and Canada            |
+| Model Hosted (Region)     | US and India                            |
 | Model Available (Region)  | Global                                  |
 | Model Base Architecture   | Transformer                             |
 | Context Window            | 8,000 Tokens                            |
