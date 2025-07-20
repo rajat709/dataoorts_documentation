@@ -13,17 +13,17 @@ has_children: true
     <span style="margin-left:2em;">2 Articles</span>
 </div>
 
-### [Get Started](/docs/get-started/)
+### [Get Started](/dataoorts_documentation/docs/get-started/)
 Dataoorts AI Dataoorts Serverless API Endpoint: [https://cloud.dataoorts.com/api/v1](https://cloud.dataoorts.com/api/v1) Get Your Serverless API Credential From:[https://cloud.dataoorts.com/llms](https://cloud.dataoorts.com/llms) Unlock the power of serverless AI with Dataoorts! Gain seamless access ...
 <br>
 
-### [AI Models Catalog](/docs/ai-models-catalog)
+### [AI Models Catalog](/dataoorts_documentation/docs/ai-models-catalog)
 Inference Models Catalog Currently, Dataoorts offers support for powerful text generation and text-to-image generation models, enabling you to create content and visuals with ease. Looking ahead, we’re excited to expand our platform with an eve...
 <br>
 
-### [Text Generation]( /docs/text-gen)
+### [Text Generation](/dataoorts_documentation/docs/text-gen)
 11 Articles
 <br>
 
-### [Image Generation](/docs/text-to-image-generation)
+### [Image Generation](/dataoorts_documentation/docs/text-to-image-generation)
 4 Articles
