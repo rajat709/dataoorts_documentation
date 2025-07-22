@@ -57,7 +57,7 @@ back_to_top_text: "Back to top"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-color_scheme: dark
+color_scheme: light # or dark
 
 callouts_level: quiet # or loud
 callouts:
@@ -71,4 +71,3 @@ callouts:
     color: purple
   warning:
     color: red
-
