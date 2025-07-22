@@ -20,16 +20,13 @@
 enable_copy_code_button: true
 title: Dataoorts Documentation
 email: help@dataoorts.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/dataoorts_documentation" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Dataoorts GPU Cloud – The most affordable and scalable GPU cloud platform, built for high performance and real-time flexibility."
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://dataoorts.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dataoorts
 linkedin_username: dataoorts
 youtube_username: dataoorts
-github_username:  
+github_username:  dataoorts
 
 # Build settings
 theme: just-the-docs
@@ -60,7 +57,7 @@ back_to_top_text: "Back to top"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-color_scheme: light
+color_scheme: dark
 
 callouts_level: quiet # or loud
 callouts:
