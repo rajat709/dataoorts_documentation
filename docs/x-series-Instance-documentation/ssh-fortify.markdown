@@ -3,7 +3,7 @@ layout: page
 title: "SSH Access Fortify" 
 permalink: /docs/ssh-fortify/
 parent: "X-Series Instance Documentation"
-nav_order: 3
+nav_order: 4
 published: Mar 9, 2025
 updated: Mar 10, 2025
 ---
