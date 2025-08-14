@@ -3,7 +3,7 @@ layout: page
 title: "Single email verification" 
 permalink: /docs/single-email-verification/
 nav_order: 4
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 21, 2025
 updated: May 21, 2025
 ---
