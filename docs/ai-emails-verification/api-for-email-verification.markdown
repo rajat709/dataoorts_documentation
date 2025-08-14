@@ -3,7 +3,7 @@ layout: page
 title: "API For Email Verification" 
 permalink: /docs/api-email-verification/
 nav_order: 6
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 21, 2025
 updated: May 22, 2025
 ---
