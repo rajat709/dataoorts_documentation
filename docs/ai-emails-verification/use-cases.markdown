@@ -3,7 +3,7 @@ layout: page
 title: "Potential Use Cases" 
 permalink: /docs/potential-usecases/
 nav_order: 2
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 21, 2025
 updated: May 21, 2025
 ---
