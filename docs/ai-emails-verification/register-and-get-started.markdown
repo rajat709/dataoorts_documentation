@@ -3,7 +3,7 @@ layout: page
 title: "Register and Get Started" 
 permalink: /docs/register-get-started/
 nav_order: 3
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 21, 2024
 updated: May 21, 2025
 ---
