@@ -3,7 +3,7 @@ layout: page
 title: "FAQs" 
 permalink: /docs/faqs/
 nav_order: 7
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 23, 2025
 updated: May 23, 2025
 ---
