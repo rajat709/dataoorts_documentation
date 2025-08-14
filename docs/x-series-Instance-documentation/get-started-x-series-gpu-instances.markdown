@@ -3,7 +3,7 @@ layout: page
 title: Get Started With X-Series GPU Instances
 permalink: /docs/get-started-x-series-gpu-instances/
 parent: "X-Series Instance Documentation"
-nav_order: 1
+nav_order: 2
 published: Mar 9, 2025
 updated: Mar 9, 2025
 ---
