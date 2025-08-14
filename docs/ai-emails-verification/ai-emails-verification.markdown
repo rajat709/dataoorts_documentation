@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI CRM" 
+title: "AI-Powered CRM" 
 permalink: /docs/ai-emails-verification/
 nav_order: 5
 has_children: true
