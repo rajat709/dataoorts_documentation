@@ -3,7 +3,7 @@ layout: page
 title: "FAQs: X-Series Instance" 
 permalink: /docs/x-series-instance-faqs/
 parent: "X-Series Instance Documentation"
-nav_order: 2
+nav_order: 3
 published: Mar 9, 2025
 updated: Mar 9, 2025
 ---
