@@ -3,7 +3,7 @@ layout: page
 title: "Bulk Email Verification" 
 permalink: /docs/bulk-email-verification/
 nav_order: 5
-parent: "AI Powered Email Verification"
+parent: "AI-Powered CRM"
 published: May 21, 2024
 updated: May 23, 2025
 ---
