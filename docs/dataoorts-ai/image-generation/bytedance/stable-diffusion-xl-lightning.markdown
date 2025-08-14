@@ -25,7 +25,7 @@ updated: Jun 11, 2025
 | Model Name                | bytedance/stable-diffusion-xl-lightning |
 |---------------------------|-----------------------------------------|
 | Model Type                |    Image Generation                     |
-| Model Cost                | $0.009 Per Image                        |
+| Model Cost                | $0.0011 Per Image                        |
 | Model Hosted (Region)     | US and India                            |
 | Model Available (Region)  | Global                                  |
 | Model Base Architecture   | Diffusion                               |
