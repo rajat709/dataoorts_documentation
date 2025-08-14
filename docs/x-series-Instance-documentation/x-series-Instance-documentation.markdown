@@ -2,7 +2,7 @@
 layout: page
 title: X-Series Instance Documentation  
 permalink: /docs/x-series-instance-documentation/
-nav_order: 2
+nav_order: 1
 has_children: true
 ---
 
