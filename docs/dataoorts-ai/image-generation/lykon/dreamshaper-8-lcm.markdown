@@ -27,7 +27,7 @@ updated: Jun 11, 2025
 | Model Name                | 	 lykon/dreamshaper-8-lcm              |
 |---------------------------|-----------------------------------------|
 | Model Type                |    Image Generation                     |
-| Model Cost                | $0.006 Per Image                        |
+| Model Cost                | $0.0010 Per Image                        |
 | Model Hosted (Region)     | US                                      |
 | Model Available (Region)  | Global                                  |
 | Model Base Architecture   | Diffusion                               |
