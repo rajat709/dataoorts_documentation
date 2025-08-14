@@ -25,7 +25,7 @@ updated: Jun 28, 2025
 | Model Name                | stabilityai/stable-diffusion-xl-base-1.0|
 |---------------------------|-----------------------------------------|
 | Model Type                |    Image Generation                     |
-| Model Cost                | $0.008 Per Image                        |
+| Model Cost                | $0.0011 Per Image                        |
 | Model Hosted (Region)     | US, Norway and India                       |
 | Model Available (Region)  | Global                                  |
 | Model Base Architecture   | Diffusion                               |
