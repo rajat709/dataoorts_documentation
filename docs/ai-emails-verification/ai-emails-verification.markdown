@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI-Powered CRM" 
-permalink: /docs/ai-emails-verification/
+permalink: /docs/ai-crm/
 nav_order: 5
 has_children: true
 ---
