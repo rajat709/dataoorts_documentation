@@ -3,7 +3,7 @@ layout: page
 title: "Configure Firewalls and Security Groups" 
 permalink: /docs/set-up-firewall/
 parent: "X-Series Instance Documentation"
-nav_order: 4
+nav_order: 5
 published: Mar 9, 2025
 updated: Mar 9, 2025
 ---
