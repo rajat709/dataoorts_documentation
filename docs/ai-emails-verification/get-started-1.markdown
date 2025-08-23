@@ -30,13 +30,12 @@ Email Verification, the Serverless Way<br>
 ✔ True pay-per-use – Only pay for verifications you actually run<br>
 ✔ Scale freely – From 1 to 1M+ checks with no infrastructure hassle<br>
 ✔ Credits never expire – Use across our service ecosystem<br>
-✔ Bulk Email Verification – Verify millions effectively<br>
 ✔ Complete Async architecture – Our API handles concurrent requests seamlessly<br>
 ✔ Zero Trust policy – Under this policy we can not retain any data—we only process it.
 
 ## Get Started Instantly
 ### 1. ⚡ Use our Web Dashboard - Beginner Friendly.
-* ✧ Free Trial: h[ttps://mails.dataoorts.com](https://mails.dataoorts.com) (3 verifications per user)
+* ✧ Free Trial: [https://mails.dataoorts.com](https://mails.dataoorts.com) (3 verifications per user)
 * ✧ Unlimited Access: [https://cloud.dataoorts.com/aicrm_mails](https://cloud.dataoorts.com/aicrm_mails) (Hosted on Dataoorts)
 
 ### 2. ✨ API Integration – Ideal for automated workflows and scalable solutions.
