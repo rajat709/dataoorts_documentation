@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Cloud Instance API" 
+title: "Cloud Instance API"
 permalink: /docs/cloud-api/
 nav_order: 4
 has_children: true
@@ -12,6 +12,10 @@ has_children: true
      <span>1 Article</span>
 </div>
 
+### Coming Soon
+The complete **Cloud GPU Instance API documentation** will be available soon.  
 
-### Coming soon
-Complete Cloud API Docs Coming Soon… [If you're seeking access to Dataoorts AI API Model, head over to https://docs.dataoorts.com/docs/dataoorts-ai ]
+If you need enterprise-level access or early integration, feel free to contact us at **help@dataoorts.com**.  
+Our team can provide you with access to our **internal unrestricted API** to help you create and manage GPU-based VMs.  
+
+Looking for the **Dataoorts AI API model**? Visit: [https://docs.dataoorts.com/docs/dataoorts-ai](https://docs.dataoorts.com/docs/dataoorts-ai)
