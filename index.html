@@ -1,112 +1,202 @@
-<link rel="icon" type="image/png" href="logo.png" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
-  body {
-    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    background: linear-gradient(135deg, #f5f3ff, #e0f2fe);
-    color: #111827;
-    margin: 0;
-    padding: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    box-sizing: border-box;
-  }
+  <style>
+    :root {
+      --bg-color: #050505;
+      --card-bg: #0a0a0a;
+      --card-border: #1f1f1f;
+      --text-main: #ffffff;
+      --text-muted: #888888;
+      --accent-1: #8b5cf6;
+      --accent-2: #3b82f6;
+    }
 
-  .container {
-    max-width: 650px;
-    width: 100%;
-    padding: 40px;
-    border-radius: 24px;
-    background: rgba(255, 255, 255, 0.65);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    animation: fadeIn 0.8s ease-out forwards;
-  }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-color);
+      /* Modern Tech Dot Grid Background */
+      background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+      background-size: 24px 24px;
+      color: var(--text-main);
+      margin: 0;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      position: relative;
+    }
 
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+    /* Glowing Orb behind the container */
+    body::before {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      filter: blur(120px);
+      opacity: 0.15;
+      z-index: 0;
+      border-radius: 50%;
+      animation: pulse 8s ease-in-out infinite alternate;
+    }
 
-  h1 {
-    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-size: 2.25rem;
-    font-weight: 700;
-  }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.1; }
+      100% { transform: scale(1.2); opacity: 0.2; }
+    }
 
-  p {
-    color: #4b5563;
-    font-size: 1.1em;
-    margin-bottom: 32px;
-    line-height: 1.6;
-  }
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 650px;
+      width: 100%;
+      padding: 48px;
+      border-radius: 16px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      animation: fadeIn 0.8s ease-out forwards;
+    }
 
-  .links-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    text-align: left;
-  }
+    /* Top Accent Line for that "Block" feel */
+    .container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+    }
 
-  .doc-link {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    background: rgba(255, 255, 255, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 12px;
-    color: #374151;
-    font-size: 1em;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-  }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-  .doc-link:hover {
-    transform: translateY(-4px);
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 8px 16px rgba(139, 92, 246, 0.25);
-    border-color: rgba(255, 255, 255, 0.8);
-  }
+    h1 {
+      color: var(--text-main);
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
 
-  .doc-link i {
-    font-size: 1.25em;
-    margin-right: 14px;
-    width: 24px;
-    text-align: center;
-    background: linear-gradient(135deg, #8b5cf6, #3b82f6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    /* Highlighted Gradient Text */
+    h1 span {
+      background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-  @media (max-width: 680px) {
-    .links-grid { grid-template-columns: 1fr; }
-    h1 { font-size: 1.8rem; }
-    .container { padding: 32px 24px; }
-  }
-</style>
+    p {
+      color: var(--text-muted);
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      line-height: 1.7;
+      font-weight: 400;
+    }
 
-<div class="container">
-  <h1>Dataoorts Documentation</h1>
-  <p>In-depth documentation to guide users in getting started with our GPU Cloud, serverless computing, and AI solutions.</p>
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      text-align: left;
+    }
 
-  <div class="links-grid">
-    <a href="https://rygen.io" class="doc-link" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-robot"></i> Inference AI
-    </a>
-    <a href="https://www.notion.so/2fcfa050760b8067badbc76401b853f5?v=2fcfa050760b8056a861000cc84975ae&source=copy_link" class="doc-link" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-code"></i> GPU Cloud API
-    </a>
+    .doc-link {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background: #111111;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      color: #e5e5e5;
+      font-size: 1.05em;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Glow Effect on Hover */
+    .doc-link:hover {
+      transform: translateY(-4px);
+      background: #161616;
+      border-color: #3b3b3b;
+      color: #ffffff;
+      box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.4);
+    }
+
+    .doc-link i {
+      font-size: 1.3em;
+      margin-right: 16px;
+      min-width: 24px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: transform 0.3s ease;
+    }
+
+    .doc-link:hover i {
+      transform: scale(1.1);
+    }
+
+    /* Arrow icon that appears on hover */
+    .doc-link::after {
+      content: '\f061';
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      position: absolute;
+      right: 20px;
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: all 0.3s ease;
+      color: var(--text-muted);
+      font-size: 0.9em;
+    }
+
+    .doc-link:hover::after {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    @media (max-width: 680px) {
+      .links-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+      .container { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Dataoorts <span>Docs</span></h1>
+    <p>In-depth documentation to guide users in getting started with our GPU Cloud, serverless computing, and AI solutions.</p>
+
+    <div class="links-grid">
+      <a href="https://rygen.io" class="doc-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-robot"></i> Inference AI
+      </a>
+      <a href="https://www.notion.so/2fcfa050760b8067badbc76401b853f5?v=2fcfa050760b8056a861000cc84975ae&source=copy_link" class="doc-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-code"></i> GPU Cloud API
+      </a>
+    </div>
   </div>
-</div>
+</body>
+</html>
